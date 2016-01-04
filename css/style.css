@@ -58,10 +58,18 @@ h3 {
 	font-size: 16px;
 }
 
+h5 {
+	font-family: "Open Sans", sans-serif;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 16px; 
+}
+
 p {
 	max-width: 600px;
 	font-weight: 400;
-	font-family: "Open Sans", sans-serif;
+	font-family: "Merriweather", serif;
+	margin: 0;
 }
 
 li {
@@ -75,10 +83,11 @@ li {
 
 .header {
 	background: #F2F6F5;
-	padding: 0 40px;
+	padding: 40px;
 	border-bottom: 2px solid #272A32;
 	margin-top: 0;
 }
+
 
 section {
 	margin: 20px 0;
@@ -192,7 +201,13 @@ section {
 
 
 
+/*Footer*/
 
+footer {
+	background-color: #F2F6F5;
+	padding: 40px 0 40px 40px;
+	border-top: 2px solid #272A32;
+}
 
 
 
